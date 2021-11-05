@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/homenagems",
+      "handler": "homenagem.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/homenagems/count",
+      "handler": "homenagem.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/homenagems/:id",
+      "handler": "homenagem.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/homenagems",
+      "handler": "homenagem.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/homenagems/:id",
+      "handler": "homenagem.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/homenagems/:id",
+      "handler": "homenagem.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

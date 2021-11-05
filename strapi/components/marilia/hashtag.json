@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_marilia_hashtags",
+  "info": {
+    "name": "Hashtag",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Hashtag": {
+      "type": "string"
+    }
+  }
+}

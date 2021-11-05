@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homenagems",
+  "info": {
+    "name": "Homenagem"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome": {
+      "type": "string",
+      "required": true
+    },
+    "Cidade": {
+      "type": "string",
+      "required": true
+    },
+    "Descricao": {
+      "type": "string",
+      "required": true
+    },
+    "Hashtag": {
+      "type": "component",
+      "repeatable": true,
+      "component": "marilia.hashtag"
+    }
+  }
+}

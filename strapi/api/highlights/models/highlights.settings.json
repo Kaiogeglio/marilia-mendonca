@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "highlights",
+  "info": {
+    "name": "Highlights"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Data": {
+      "type": "date",
+      "required": true
+    },
+    "Descricao": {
+      "type": "string",
+      "required": true
+    },
+    "Imagem": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
